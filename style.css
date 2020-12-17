@@ -1,0 +1,262 @@
+body {
+	margin: 0;
+	font-family: Segoe UI;
+}
+.container {
+	width: 55%;
+	margin: auto;
+}
+.header-area {
+	background: #24242E;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 30px 0;
+}
+.header-area a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.header-area h2 {
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.logo-area img {
+	width: 70px;
+	height: auto;
+	margin-bottom: 40px;
+}
+.header-area p {
+	font-size: 10px;
+}
+.next {
+	margin-top: 80px;
+}
+.next a i {
+	border: 1px solid #FFFFFF;
+	font-size: 12px;
+	height: 10px;
+	width: 10px;
+	padding: 8px;
+	border-radius: 50%;
+}
+
+
+/* ABOUT-US */
+.about-us {
+	padding: 40px 0;
+	background-image: url('images/back.png');
+	background-size: cover;
+}
+.about-us h2 {
+	color: #454A4E;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.about {
+	overflow: hidden;
+}
+.content p {
+	text-align: center;
+	font-size: 15px;
+	color: #454A4E;
+}
+.colum {
+	width: 31.33%;
+	float: left;
+	overflow: hidden;
+	margin: 0 1%;
+}
+.colum p {
+	font-size: 10px;
+	color: #B2B2B2;
+}
+.colum h4 {
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #24242E;
+}
+.colum img {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+
+
+
+/* portfolio */
+.portfolio {
+	background: #24242E;
+	padding: 30px 0;
+	overflow: hidden; 
+	color: #FFFFFF;
+	text-align: center;
+}
+.portfolio h1 ,
+.portfolio h2 ,
+.portfolio h3 ,
+.portfolio h4 ,
+.portfolio h5 ,
+.portfolio h6 {
+	color: #FFFFFF;
+}
+.portfolio h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.work-category {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.work-category ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.work-category ul li {
+	display: inline;
+	margin: 0 5px;
+}
+.work-category ul li a {
+	color: #FFFFFF;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 10px;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	padding: 2px 0;
+}
+.work-category ul li:hover a {
+	border-bottom: 2px solid#7C77C9;
+}
+.work-category ul .current a{
+	border-bottom: 2px solid#7C77C9;
+}
+.work-colum {
+	overflow: hidden;
+	text-align: center;
+}
+.work-colum .colum a {
+	font-size: 9px;
+	color: #818baa;
+	text-decoration: none;
+}
+.work-colum p {
+	margin-bottom: 0;
+}
+.work-colum .colum p a {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.portfolio input {
+	background: #7C77C9;
+	color: #FFFFFF;
+	border: 1px solid #7C77C9;
+	border-radius: 3px;
+	font-size: 10px;
+	padding: 8px 20px;
+	margin-top: 40px;
+}
+.portfolio input:hover {
+	cursor: pointer;
+}
+/* PHOTOGRAPHY */
+.photography {
+	text-align: center;
+	background-image: url('images/back.png');
+	background-size: cover;
+}
+.photography h2 {
+	text-transform: uppercase;
+	color: #464b4f;
+	font-size: 40px;
+}
+.photography p {
+	font-size: 15px;
+	color: #888a8b;
+}
+.photography input {
+	background: #7C77C9;
+	color: #FFFFFF;
+	border: 1px solid #7C77C9;
+	border-radius: 3px;
+	font-size: 10px;
+	padding: 8px 20px;
+	margin: 40px 0;
+}
+.photography input:hover {
+	cursor: pointer;
+}
+/* SUBSCRIBE */
+.subscribe {
+	background: #24242E;
+	text-align: center;
+}
+.infinity img {
+	width: 10%;
+	height: auto;
+	margin-top: 25%;
+}
+.subscribe p {
+	font-size: 10px;
+	color: #FFFFFF;
+	margin-top: 5%;
+	margin-bottom: 0;
+}
+.subscribe form {
+	margin-top: 30px;
+}
+.subscribe form input[type="email"] {
+	padding: 10px 100px 10px 10px;
+	font-size: 9px;
+	color: #c8c8c8;
+	border-radius: 4px;
+	border: 1px solid  #919095;
+	margin: 5px 0 130px;
+}
+.subscribe form input[type="submit"] {
+	font-size: 9px;
+	padding: 10px 40px;
+	border-radius: 4px;
+	border: 1px solid #7C77C9;
+	color: #FFFFFF;
+	background: #7C77C9;
+}
+.subscribe form input[type="submit"]:hover {
+	cursor: pointer;
+}
+/* FOOTER-AREA */
+.footer-area {
+	text-align: center;
+	background-image: url('images/back.png');
+	background-size: cover;
+	padding: 50px 0;
+}
+.social{
+	padding-right: 5px;
+}
+.social ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.social ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+.social ul li a {
+	color: #DBDBDB;
+	font-size: 20px;
+}
+.copy {
+	margin: 30px 0;
+}
+.copy p {
+	color: #7c7c7c;
+	font-size: 12px;
+	text-transform: capitalize;
+}
